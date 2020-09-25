@@ -1,7 +1,7 @@
 # RESCUEBOT
 a chatbot to save life 
 
-\\\\\\\\
+\\\\\\\\\
 INSTALLATION 
 
 1) Install rasa in your computer  https://youtu.be/4ewIABo0OkU
