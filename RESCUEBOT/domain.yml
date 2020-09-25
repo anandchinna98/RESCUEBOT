@@ -1,0 +1,126 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - live_score
+  - helloworld_action
+  - roadaccident
+  - weight
+  - helpme
+  - vegetarian
+  - non_veg
+  - snake
+  - anexity
+  - exe
+  - fire
+  - alcohol
+  - coro
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_loss
+- utter_live_score
+- utter_road
+- utter_help
+- utter_vegetarian
+- utter_non_veg
+- utter_nan_veg
+- utter_snake
+- utter_anexity
+- utter_exercise
+- utter_fire
+- utter_alcohol
+- utter_corona
+- action_hello_world_program
+
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am Rescue Bot , am here to help you"
+  utter_live_score:
+  - text: "ind won by 107 runs"
+
+  utter_road:
+  - text: "ohh my gosh "
+    image: "https://www.platinumlendingltd.com/wp-content/uploads/2017/05/E081_re_sized.jpg"
+
+  utter_loss:
+  - text: "Hey follow this , you can be a hero when done"
+    image: "https://titaniumsuccess.com/wp-content/uploads/2018/03/The-11-Essential-Secrets-to-Weight-Loss-Infographic.jpg"
+
+  utter_help:
+  - text: "how can i help you"
+    buttons:
+    - title: Ambulance
+      payload: /vegetarian
+    - title: Police
+      payload: /non_veg
+
+  utter_vegetarian:
+  - text: "call 108 "
+
+  utter_non_veg:
+  - text: "call 100"
+
+  utter_nan_veg:
+  - text: "call 101"
+
+  utter_snake:
+  - text: "Here is i got something "
+    image: "https://2rdrtx4bt29lo91s31mjhkji-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/Infographic-snake-bite-first-aid-1.jpg"
+
+  utter_anexity:
+  - text: "here is i got something"
+    image: "https://www.childrens.com/wps/wcm/connect/childrenspublic/b7b021fd-d1b3-42f7-976a-c2ddc5d54308/CHST200406_Covid+Anxiety+Infographic+%2815953%29_Final_Full.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_MP541240M8QL00A94691A238J3-b7b021fd-d1b3-42f7-976a-c2ddc5d54308-nehItTY"
+
+  utter_exercise:
+  - text: "Do it and Gain it"
+    image: "https://i.pinimg.com/originals/fb/b2/dd/fbb2dd52d993c287dd85d44ad183e3cd.jpg"
+  
+  utter_fire:
+  - text: "This can help you"
+    image: "https://pbs.twimg.com/media/CKuVoGXVAAA4DUl.jpg"
+
+  utter_alcohol:
+  - text: "You have to take a look at this"
+    image: "https://pbs.twimg.com/media/CKuVoGXVAAA4DUl.jpg"
+
+  utter_corona:
+  - text: "You may need to take a look at this"
+    image: "https://i.ytimg.com/vi/F70BzSFAZfw/maxresdefault.jpg"
+entities:
+- road
+- weight
+- help
+- snake
+- relief
+- fire
+- exercise
+- alcohol
+- corona
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+ 
