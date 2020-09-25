@@ -10,5 +10,18 @@ INSTALLATION
 
 \\\\\\\\\
 WORKING
+1) CMD in admin 
+2) choose project directory  D:
+3) virtual environment 
+    .\venv\scripts\activate
+4) cd RESCUEBOT
 
-1) follow the command
+\\\\\\\\\
+TRAINING in cmd admin
+1) rasa train
+2) rasa run -m models --enable-api --cors "*" --debug
+
+\\\\\\\\\
+DEPLOYMENT
+1) run index.html in vs code and launch with liveServer from command pallete
+2) reload the page with TRAINING code running in seperate instance.
