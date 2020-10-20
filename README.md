@@ -11,7 +11,7 @@ INSTALLATION
 \\\\\\\\\
 WORKING
 1) CMD in admin 
-2) choose project directory  D:
+2) choose project directory -->
 3) virtual environment 
     .\venv\scripts\activate
 4) cd RESCUEBOT
