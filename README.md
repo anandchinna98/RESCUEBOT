@@ -25,3 +25,6 @@ TRAINING in cmd admin
 DEPLOYMENT
 1) run index.html in vs code and launch with liveServer from command pallete
 2) reload the page with TRAINING code running in seperate instance.
+
+
+new contribution with custom UI 
