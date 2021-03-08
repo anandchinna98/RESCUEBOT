@@ -1,7 +1,7 @@
-# RESCUEBOT
+# RESCUEBOT --------  THIS version of rasa is build with 1.x 
 a chatbot to save life 
 
-#THIS version of rasa is build with 1.x 
+#
 
 \\\\\\\\\
 INSTALLATION 
