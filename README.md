@@ -1,5 +1,5 @@
 # RESCUEBOT --------  THIS version of rasa is build with 1.x 
-a chatbot to save life 
+a chatbot to save life and reply to your day to day life support queries 
 
 #
 
